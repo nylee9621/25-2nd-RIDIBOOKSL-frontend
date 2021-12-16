@@ -23,7 +23,7 @@
 - 검색어 저장 기능은 on/off가 가능하다.
 - 화살표 위/아래 키로 검색창 내 선택자를 변경할 수 있다.
 - 영역 밖을 클릭하면 검색창이 사라진다.
-<img width="927" alt="검색" src="https://user-images.githubusercontent.com/40952119/146365065-e1a79449-cb16-4ef6-9165-cbd1975eedcf.png">
+<img width="1200" alt="검색" src="https://user-images.githubusercontent.com/40952119/146365065-e1a79449-cb16-4ef6-9165-cbd1975eedcf.png">
 
 #### 3. 목록 형식 변경
 - 가로/세로형 선택에 따라 구조가 변경된다.
