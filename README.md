@@ -1,36 +1,36 @@
-# RIDIBOOKSL 2nd PROJECT
-<img width="1660" alt="스크린샷 2021-10-31 오후 3 38 04" src="https://user-images.githubusercontent.com/81367886/139572236-777383f0-dfa0-4c6f-aa20-1e49056b26aa.png">
+# RIDIBOOKSL-BOOKSL
+> 웹툰/웹소설, 전자책, 만화까지 취향에 딱 맞는 다양한 컨텐츠를 제안하고 제공하는 웹사이트 [리디북스](https://ridibooks.com/)를 모티브로 한 팀 프로젝트
 
 ## Introduction
-[리디북스](https://ridibooks.com/) 를 모티브로 한 팀 프로젝트<br>
-웹툰/웹소설, 전자책, 만화까지 취향에 딱 맞는 다양한 컨텐츠를 제안하고 제공하는 웹사이트
-- 기간 : 2021. 10. 18. ~ 2021. 10. 29.
-- [Backend GitHub](https://github.com/wecode-bootcamp-korea/25-2nd-RIDIBOOKSL-backend)
-- [프로젝트 시연 영상](https://youtu.be/AiPwNHyOqH4)
-- 초기 세팅부터 직접 구현하였으며, 모든 데이터는 프론트와 백의 통신으로 받아왔습니다.
-
-## Members
-- **Frontend**: 김수민, 김용현, 박세연, 이나영
-- **Backend**: 이기용, 이정아
-
+- 진행 기간: 2021년 10월 18일 ~ 2021년 10월 29일 (2주)
+- 참여 인원: 프론트엔드 4명, 백엔드 2명 (총 6명)
 
 ## Technology
-- **Frontend**: `HTML/CSS` `JSX` `React(CRA)` `Styled-components` (Library: `React-router-DOM`, `React-pdf`, `React-slick`)
-- **Backend**: `Python`, `Django Web Framework`, `AWS`, `MySQL`
-- **Common**: 버전관리 `Git & GitHub`, 소통 `Slack`,  일정관리 [Trello](https://trello.com/b/zSVgJt0Z/%EB%A6%AC%EB%94%94%EB%B6%81%EC%8A%AC%EB%B6%81%EC%8A%ACridibooksl)
+- `HTML`, `CSS`, `JavaScript`, `React`, `styled-components`
+- `Slack`, `[Trello](https://trello.com/b/zSVgJt0Z/%EB%A6%AC%EB%94%94%EB%B6%81%EC%8A%AC%EB%B6%81%EC%8A%ACridibooksl)`, `Github`, `Git`
 
-## Main Function
-- **소셜 로그인**: 카카오톡을 이용한 소셜 로그인 기능
-- **메인 페이지**: 베스트셀러 및 신간 도서 리스트, 광고 슬라이더, 현재 시간
-- **카테고리**: 도서 카테고리 및 기타 세부 카테고리
-- **카트 & 위시리스트**: 카트와 위시리스트에 담긴 컨텐츠 확인 및 선택 삭제 및 구매
-- **상세 페이지**: 컨텐츠 상세 설명 및 이미지, 컨텐츠 미리보기, 별점으로 매기는 평점 기능, 작가 구독 기능 
-- **상품 리스트**: 주제별 정렬기능 및 페이지네이션, 두가지 방식의 리스트 보기 기능
-- **상품 검색**: 작가, 제목에 따른 검색 결과 필터링
-- **작가 페이지**: 해당 작가 관련 정보 및 컨텐츠 검색 기능
+## Links
+- [시연 영상 보러가기](https://youtu.be/AiPwNHyOqH4)
+- [백엔드 github](https://github.com/wecode-bootcamp-korea/25-2nd-RIDIBOOKSL-backend.git)
 
-## Part
-- 김수민: 상세페이지
-- 김용현: 소셜 로그인, 카테고리, 카트 & 위시리스트, 미리보기 기능
-- 박세연: Footer, 메인페이지
-- 이나영: Header, 리스트, 검색, 작가 페이지
+## View & Function
+#### 1. 레이아웃: 헤더, 카테고리별 책 목록, 검색, 작가 상세, 알림 페이지
+![138664926-04bc3c15-9311-45f7-8f37-9820335e6b78](https://user-images.githubusercontent.com/40952119/146355849-2dc3a63e-dcc2-4e3a-bf50-3ec225de1ac3.jpg)
+
+#### 2. 검색
+- 엔터를 누르면 클릭된다.
+- 검색한 단어는 최신순으로 저장된다.
+- 검색어 저장 기능은 on/off가 가능하다.
+- 화살표 위/아래 키로 검색창 내 선택자를 변경할 수 있다.
+- 영역 밖을 클릭하면 검색창이 사라진다.
+<img width="834" alt="검색" src="https://user-images.githubusercontent.com/40952119/146365065-e1a79449-cb16-4ef6-9165-cbd1975eedcf.png">
+
+#### 3. 목록 형식 변경
+- 가로/세로형 선택에 따라 구조가 변경된다.
+- 창 사이즈가 줄어들면 무조건 가로형으로 변경 및 고정된다.
+
+#### 4. 정렬 및 페이지네이션
+
+#### 5. 알림
+- socket 이용.
+![녹화_2021_11_01_20_12_00_496](https://user-images.githubusercontent.com/40952119/146365451-6d8507f5-a3dc-4dea-b869-75c4d40824a0.gif)
