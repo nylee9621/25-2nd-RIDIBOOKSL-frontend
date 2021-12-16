@@ -7,11 +7,12 @@
 
 ## Technology
 - `HTML`, `CSS`, `JavaScript`, `React`, `styled-components`
-- `Slack`, `[Trello](https://trello.com/b/zSVgJt0Z/%EB%A6%AC%EB%94%94%EB%B6%81%EC%8A%AC%EB%B6%81%EC%8A%ACridibooksl)`, `Github`, `Git`
+- `Slack`, `Trello`, `Github`, `Git`
 
 ## Links
 - [시연 영상 보러가기](https://youtu.be/AiPwNHyOqH4)
 - [백엔드 github](https://github.com/wecode-bootcamp-korea/25-2nd-RIDIBOOKSL-backend.git)
+- [Trello](https://trello.com/b/zSVgJt0Z/%EB%A6%AC%EB%94%94%EB%B6%81%EC%8A%AC%EB%B6%81%EC%8A%ACridibooksl)
 
 ## View & Function
 #### 1. 레이아웃: 헤더, 카테고리별 책 목록, 검색, 작가 상세, 알림 페이지
